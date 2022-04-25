@@ -8,7 +8,7 @@ func main() {
 	// remainingCards.print()
 
 	cards := newDeck()
-	cards.saveToFile("my_cards")
+	cards.saveToFile("my_cards.csv")
 
 	// cards2 := newDeckFromFile("my_cards")
 	// cards2.print()
